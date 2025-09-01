@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "my-expo-app",
-    "slug": "my-expo-app",
+    "name": "POS",
+    "slug": "POS",
     "version": "1.0.0",
+    "scheme": "POS",
 
     "web": {
       "favicon": "./assets/favicon.png"
@@ -12,7 +13,9 @@
       "tsconfigPaths": true
     },
 
-    "plugins": [],
+    "plugins": [
+      "expo-router"
+    ],
 
     "orientation": "portrait",
     "icon": "./assets/icon.png",
